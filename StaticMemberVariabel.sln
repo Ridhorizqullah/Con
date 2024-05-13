@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticMemberFunction", "Sta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "construktor", "construktor\construktor.vcxproj", "{3870047A-7BC2-430D-8664-2B60CA8E2841}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "destruktor", "destruktor\destruktor.vcxproj", "{4008C5DE-C440-4473-B248-7E8403B60593}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{3870047A-7BC2-430D-8664-2B60CA8E2841}.Release|x64.Build.0 = Release|x64
 		{3870047A-7BC2-430D-8664-2B60CA8E2841}.Release|x86.ActiveCfg = Release|Win32
 		{3870047A-7BC2-430D-8664-2B60CA8E2841}.Release|x86.Build.0 = Release|Win32
+		{4008C5DE-C440-4473-B248-7E8403B60593}.Debug|x64.ActiveCfg = Debug|x64
+		{4008C5DE-C440-4473-B248-7E8403B60593}.Debug|x64.Build.0 = Debug|x64
+		{4008C5DE-C440-4473-B248-7E8403B60593}.Debug|x86.ActiveCfg = Debug|Win32
+		{4008C5DE-C440-4473-B248-7E8403B60593}.Debug|x86.Build.0 = Debug|Win32
+		{4008C5DE-C440-4473-B248-7E8403B60593}.Release|x64.ActiveCfg = Release|x64
+		{4008C5DE-C440-4473-B248-7E8403B60593}.Release|x64.Build.0 = Release|x64
+		{4008C5DE-C440-4473-B248-7E8403B60593}.Release|x86.ActiveCfg = Release|Win32
+		{4008C5DE-C440-4473-B248-7E8403B60593}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
