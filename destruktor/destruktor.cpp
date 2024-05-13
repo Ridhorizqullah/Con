@@ -39,7 +39,7 @@ void angka::isiData() {
 	cout << endl;
 }
 
-int mai() {
+int main() {
 	angka belajarcpp(3);
 	angka* ptrBelajarcpp = new angka(5);
 	delete ptrBelajarcpp;
