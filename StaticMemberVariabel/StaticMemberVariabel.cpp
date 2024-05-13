@@ -1,10 +1,12 @@
+//constructioon
+
 #include <iostream>
 using namespace std;
 
-class mahasiswa
+class mahasiswa					//class
 {
-public:
-	static int nim;
+public:							//akses modifier
+	static int nim;				//parameter
 	int id;
 	string nama;
 
@@ -19,9 +21,9 @@ public:
 
 int mahasiswa::nim = 10;
 
-void mahasiswa::setID()
+void mahasiswa::setID()					// set id
 {
-	id = ++nim;
+	id = ++nim;							//nim bernilai 0 ditambahkan 1 baru diberikan ke ID 
 }
 
 void mahasiswa::printALL()
@@ -31,3 +33,18 @@ void mahasiswa::printALL()
 	cout << endl;
 }
 
+int main()									//untuk memanggi;
+{
+	mahasiswa mhs1("Lia Kurnia");
+	mahasiswa mhs2("Asroni");
+	mahasiswa mhs3("Andi Kurniawan");
+	mahasiswa mhs4("Joko Purbi");
+
+	mhs1.printALL();
+	mhs2.printALL();
+	mhs3.printALL();
+	mhs4.printALL();
+
+	return 0;
+
+}
